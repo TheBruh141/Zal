@@ -1,0 +1,44 @@
+{
+  "name": "@area44/astro-shadcn-ui-template",
+  "version": "23.12.26",
+  "description": "An Astro template for building apps.",
+  "author": {
+    "name": "AREA44"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev",
+    "format": "prettier -w . --cache",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.0.10",
+    "@astrojs/tailwind": "^5.1.0",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "astro": "^4.3.5",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.323.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-resizable-panels": "^2.0.4",
+    "sharp": "^0.33.2",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.15.1"
+}
