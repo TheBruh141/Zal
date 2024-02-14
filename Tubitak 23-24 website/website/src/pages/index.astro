@@ -1,0 +1,55 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import {buttonVariants} from '@/components/ui/button'
+import {Separator} from "@/components/ui/separator"
+import { Translation_Box_Left} from "../components/ui/translation_box";
+---
+
+<BaseLayout
+        title="Astro Shadcn UI Template"
+        description="This template helps you build apps with Astro, Tailwind CSS, and Shadcn UI."
+>
+
+    <!--    header -->
+    <div class=>
+        <h1 class="flex justify-center font-extrabold text-3xl m-10 border-b-4 p-5">
+            Sumerian translator
+        </h1>
+    </div>
+    <!--    mid -->
+
+    <div class="grid grid-cols-4 grid-rows-4 m-6">
+        <div class="border-2 p-10"> 1</div>
+        <div class="border-2">2</div>
+        <div class="border-2">3</div>
+        <div class="border-2">4</div>
+        <div class="border-2">5</div>
+        <div class="trans_box"> <!-- Input -->
+            <Translation_Box_Left>
+
+            </Translation_Box_Left>
+        </div>
+        <div class="trans_box"><!-- output-->
+            7
+        </div>
+        <div class="border-2">8</div>
+        <div class="border-2">9</div>
+        <div class="border-2">10</div>
+        <div class="border-2">11</div>
+        <div class="border-2">12</div>
+
+    </div>
+    <!--    footer -->
+    <div>
+        asd
+    </div>
+
+
+    <style>
+        #trans_box {
+            background: var(--card-foreground);
+        }
+
+    </style>
+</BaseLayout>
+
